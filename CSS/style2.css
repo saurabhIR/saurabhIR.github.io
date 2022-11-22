@@ -1,0 +1,45 @@
+.container{
+  color: #fff;
+  text-align: center;
+  padding:20px;
+  font-size:2rem;
+}
+
+.header{
+position: absolute;
+background-color: rgb(50, 181, 241);
+top: 2%;
+width: 96%;
+height: 12%;
+
+}
+.sidebar{
+  position: absolute;
+  background: #a0c263;
+  top: 15%;
+  width: 28%;
+  height: 70%;
+}
+.content{
+  position: absolute;
+  height: 57%;
+  background-color: #f5c531;
+  right: 2%;
+  width: 67%;
+  top: 15%;
+}
+.extra{
+  position: absolute;
+  height: 12%;
+  right: 2%;
+  bottom: 15%;
+  width: 67%;
+  background: #898989
+}
+.footer{
+  position: absolute;
+  bottom: 2%;
+  width: 96%;
+  height: 12%;
+  background-color: #FFA500;
+}
