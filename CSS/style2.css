@@ -10,6 +10,7 @@
 }
 
 .header{
+padding: 1vh;
 margin-bottom: 15px;
 background-color: rgb(50, 181, 241);
 width: 100%;
@@ -19,7 +20,7 @@ height: calc(10vh - 15px);
   height: calc(80vh - 15px);
 }
 .sidebar{
-  padding: 3px;
+  padding: 2vh;
   margin-right: 15px;
   margin-bottom: 15px;
   float: left;
@@ -28,6 +29,7 @@ height: calc(10vh - 15px);
   background: #a0c263;
 }
 .content{
+  padding: 2vh;
   height: 80%;
   float: right;
   width: calc(75% - 15px);
@@ -35,11 +37,13 @@ height: calc(10vh - 15px);
   margin-bottom: 15px;
 }
 .extra{
+  padding: 2vh;
   height: calc(20% - 15px);
   margin-bottom: 15px;
   float: right;
   width: calc(75% - 15px);
   background: #898989
+
   
 }
 .footer{
