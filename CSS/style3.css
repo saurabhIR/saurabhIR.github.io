@@ -62,3 +62,6 @@ span{
     width: calc(33.33% - 3px);
     float: right;
 }
+.footer p{
+    padding-top: 20px;
+}
