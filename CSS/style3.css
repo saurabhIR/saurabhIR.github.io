@@ -3,55 +3,62 @@
     padding: 0;
     box-sizing: border-box;
   }
-.container {
-    padding: 4em 4em;
+div{
+    display: block;
+  }
+.header {
+    background-color: #e70000;
+    height: 50vh;
+    width: 100%;
 }
 .content{
+    padding: 40px 60px;
+    float: left;
     width: 50%;
 }
-.content2{
+.content p{
     padding-top: 20px;
 }
+
 body {
     font-family: 'Source Sans Pro';
-    background:red;
+    background:#e70000;
     margin:0;
     color:white;
 }
-img { 
+.photo{
+    float: right;
+}
+img {
+    padding-top: 50px;
     padding-right: 200px;
     float: right;
-    height: 220px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
 }
 span{
     display:block;
     font-size:25px;
-    margin-bottom:16px;
     color: white;
 }
 .footer{
-    background-color: red;
-    height: 100%;
+    background-color: #e70000;
     width: 100%;
 }
 .foot{
+    padding: 20px;
+    margin-right: 4px;
     float: left;
-    width: 33%;
-    padding: 5px;
-    background:#571212;
+    background: #571212;
     color:#E98A8A;
-    margin-right: 5px;
-    margin-top: 203px;
-  }
- .first{
-    margin-top: 239px;
- }
-.foot2{
+    height: 50%;
+    width: calc(33.33% - 3px);
+}
+.foot3{
+    padding: 20px;
+    background: #571212;
+    color:#E98A8A;
+    height: 50%;
+    width: calc(33.33% - 3px);
     float: right;
-    width: 33.2%;
-    padding: 5px;
-    background:#571212;
-    color:#E98A8A;
-    margin-top: 203px;
-  }
+}
