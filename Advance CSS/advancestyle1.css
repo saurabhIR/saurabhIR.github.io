@@ -22,7 +22,7 @@
     align-content:center ;
 }
 header li{
-    font-size: 30px;
+    font-size: 25px;
  margin: 0 30px;
 }
 header{
@@ -46,7 +46,7 @@ header img{
     display:flex;
     flex-direction: row;
     align-items: center;
-    height: 120px;
+    height: 100px;
 }
 .banner{
     height: 40vh;
