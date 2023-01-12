@@ -76,7 +76,8 @@ article{
     transform: translate(0%, -50%);
 }
 .fa-solid{
-    font-size: 135px;
+    font-size: 150px;
+    padding-bottom: 25px;
 }
 .content p{
     font-size: 18px;
