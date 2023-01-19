@@ -198,6 +198,7 @@ ul{
     height: 40px;
     border: 1px solid gray;
     border-radius: 30px;
+    background-color: #ef4d38;
 }
 .doc-search::placeholder{
     color: white;
