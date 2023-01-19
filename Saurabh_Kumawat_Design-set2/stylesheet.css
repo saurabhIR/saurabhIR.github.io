@@ -60,6 +60,7 @@ ul{
 .select-dropdown {
     position: relative;
     display: inline-block;
+    width: 25%;
 }
 /* Styling for the select dropdown */
 .select {
@@ -127,6 +128,7 @@ ul{
 .banner{
     color: white;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/banner.jpg);
+    position: relative;
 }
 .banner h2{
     width: 42%;
@@ -167,11 +169,11 @@ ul{
     padding: 15px;
 }
 .find-doc{
-    position: absolute;
+    /* position: absolute; */
     border-radius: 40px;
     width: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* left: 50%; */
+    transform: translate(0%, -50%);
 }
 .foot{
     border-radius: 10px;
@@ -185,7 +187,7 @@ ul{
     color: #57b9a2;
 }
 .one{
-    width: 200px;
+    width: 90%;
     border: 1px solid gray;
     padding: 8px 15px;
     background-color: white;
@@ -195,26 +197,22 @@ ul{
     padding: 8px 15px;
 }
 .doc-search{
+    width: 90%;
     height: 40px;
-    border: 1px solid gray;
     border-radius: 30px;
     background-color: #ef4d38;
 }
 .doc-search::placeholder{
     color: white;
 }
-.doc-searchbtn{
-    height: 40px;
-    width: 15%;
-}
-.doc-search:hover,.doc-searchbtn:hover{
-    background-color: #ef4d38;
-}
 .icon-search {
-    color: black;
+    color: white;
     position: absolute;
-    right: 20px;
+    right: 25px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+.search-box{
+    width: 25%;
 }
