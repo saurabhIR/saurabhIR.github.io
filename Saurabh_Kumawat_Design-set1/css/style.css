@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color: white;
 }
 .container{
@@ -79,28 +79,31 @@ a, a:hover{
     padding-bottom: 100px;
     justify-content: flex-start;
     gap: 30px;
+    min-height: 800[px];
 }
 .banner{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../Images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .banner-content-container{
-    width: 60%;
+    width: 50%;
 }
 .banner-content h1{
     font-size: 64px;
     margin-bottom: 20px;
 }
-.banner-content h4{
-    font-size: 20px;
-    font-weight: 500;
+.banner-content h2{
+    font-size: 18px;
+    font-weight: 400;
 }
 .banner-buttons{
     justify-content: flex-start;
     gap: 30px;
     font-weight: 600;
     font-size: 16px;
+    margin-top: 30px;
 }
 .banner-buttons a{
     padding: 20px 40px;
