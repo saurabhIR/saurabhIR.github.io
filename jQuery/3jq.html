@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQ3</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        /* internal CSS */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+        .form{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+        }
+        button{
+            width: 80px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- html structuring -->
+    <div class="form">
+        <p>First Name:</p>
+        <input type="name" class="input1" placeholder="Mickey">
+        <p>Last Name:</p>
+        <input type="name" class="input2" placeholder="Mouse">
+        <button class="">Submit</button>
+    </div>
+        <!-- jQuery starts here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var inp1 = $('.input1').val();
+                if(inp1 == 0){
+                    alert("Please fill all the fields")
+                }
+                var inp2 = $('.input2').val();
+                if(inp2 == 0){
+                    alert("Please fill all the fields")
+                }
+            });
+        });
+    </script>
+    <!-- JQuery ends here -->
+</body>
+</html>
